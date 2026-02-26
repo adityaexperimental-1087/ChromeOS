@@ -8,7 +8,7 @@ on:
                 description: |
                     Codename for ChromeOS build. Check README for information on choosing a codename.
                 required: true
-                options: [voxel, gumboz, jinlon, shyvana, leona, samus]
+                options: [voxel, gumboz, jinlon, shyvana, leona, samus, rammus]
 
 jobs:
     build:
