@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
         inputs:
             codename:
-                type: choice
+                type: samus
                 description: |
                     Codename for ChromeOS build. Check README for information on choosing a codename.
                 required: true
