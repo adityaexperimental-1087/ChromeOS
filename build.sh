@@ -22,7 +22,7 @@ clean_previous_run() {
 # Function to download Chrome OS
 download_chromeos() {
     local code_name=$1
-    local url="https://cros.download/recovery/samus"
+    local url="https://cros.download/recovery/rammus"
     local response=$(curl -s --progress-bar "$url")
     local link=$(echo "$response" | sed -n 's/.*<a[^>]*href="\([^"]*dl\.google\.com[^"]*\.zip\)"[^>]*>\([^<]*\)<\/a>.*/\1 \2/p' | awk '
     {
